@@ -1,0 +1,270 @@
+<html>
+<style>
+    .subscribe {
+        background-color: rgb(202, 27, 27);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 115px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        transition: opacity 0.1s; /* Smooth transition for hover and active effects OPTIONAL*/
+    }
+
+    .subscribe:hover {
+        opacity: 0.8;
+    } /* For when the cursor hovers to the button */
+
+    .subscribe:active {
+        opacity: 0.5;
+    } /* For when the cursor clicks to the button */
+
+    .join {
+        background-color: white;
+        color: rgb(27, 115, 202);
+        border-style: solid;
+        border-color: rgb(27, 115, 202);
+        border-width: 2px;
+        height: 40px;
+        width: 80px;
+        border-radius: 5px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: background-color 0.1s, color 0.1s; /* Smooth transition for hover and active effects OPTIONAL*/
+    }
+
+    .join:hover {
+        background-color: rgb(27, 115, 202);
+        color: white;
+    }
+
+    .join:active {
+        opacity: 0.8;
+    }
+
+    .tweet {
+        background-color:rgb(56, 144, 231);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-weight: bold;
+        transition: box-shadow 0.2s; /* Smooth transition for hover effect OPTIONAL*/
+    }
+    
+    .tweet:hover {
+        box-shadow: 5px 5px 8px rgba(146, 171, 196, 0.6);
+    } 
+
+    .uber {
+        background-color: black;
+        color: white;
+        border: none;
+        height: 40px;
+        width: 120px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    .uber:hover {
+        opacity: 0.6;;
+    }
+
+    .amazon1 {
+        background-color: rgb(255, 216, 20);
+        color: black;
+        border: none;
+        height: 30px;
+        width: 150px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    .amazon1:hover {
+        background-color: rgb(255, 200, 0);
+    }
+
+    .amazon2 {
+        background-color: rgb(255, 164, 28);
+        color: black;
+        border: none;
+        height: 30px;
+        width: 150px;
+        cursor: pointer;
+        margin-right: 10px;
+        font-weight: bold;
+        border-radius: 20px;
+    }
+
+    .github {
+        background-color: rgb(46, 164, 79);
+        color: white;
+        border: none;
+        height: 35px;
+        width: 100px;
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .github:hover {
+        box-shadow: 3px 3px 6px rgba(46, 164, 79, 0.6);
+    }
+
+    .bootstrap1 {
+        background-color: rgb(121, 82, 179);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 120px;
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+    }
+
+    .bootstrap1:hover {
+        background-color: rgb(99, 65, 151);
+    }
+
+    .bootstrap2 {
+        background-color: white;
+        color: rgb(108, 117, 125);
+        border-style: solid;
+        border-color: rgb(108, 117, 125);
+        border-width: 2px;
+        height: 40px;
+        width: 100px;
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+
+    .bootstrap2:hover {
+        background-color: rgb(108, 117, 125);
+        color: white;
+    }
+
+    .linkedin1 {
+        background-color: rgb(10, 102, 194);
+        color: white;
+        border: none;
+        height: 40px;
+        width: 220px;
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .linkedin1:hover {
+        background-color: rgb(8, 82, 156);
+    }
+
+    .linkedin2 {
+        background-color: white;
+        color: rgb(0, 119, 181);
+        border-style: solid;
+        border-color: rgb(0, 119, 181);
+        border-width: 2px;
+        height: 40px;
+        width: 80px;
+        cursor: pointer;
+        margin-right: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+    .linkedin2:hover {
+        background-color: rgb(0, 119, 181);
+        color: white;
+    }
+
+    .title{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+
+    .a-link{
+        color: rgb(0, 113, 133);
+    }
+
+    .body1{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: rgb(0, 118, 0);
+    }
+     .body2{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: lighter;
+    }
+    
+</style>
+
+<br>
+
+<button class="subscribe">
+    Subscribe</button>
+<button class="join">
+    Join</button>
+<button class="tweet">
+    Tweet</button>
+
+<!-- EXERCISES 2 -->
+
+<br>
+<br>
+
+<button class="uber">
+    Request Now
+</button>
+<button class="amazon1">
+    Add to Cart
+</button>
+<button class="github">
+    Sign Up
+</button>
+
+<br>
+<br>
+
+<button class="bootstrap1">
+    Get Started
+</button>
+<button class="bootstrap2">
+    Download
+</button>
+
+<br>
+<br>
+
+<button class="linkedin1">
+    Apply on Company Website
+</button>
+<button class="linkedin2">
+    Save
+</button>
+
+<br>
+<br>
+
+<a href="#" class="a-link">Back to Amazon</a>
+<h1 class="title">Nike Black Running Shoes</h1>
+<h2 class="body1">$39 - in stock</h2>
+<h2 class="body2">Free Delivery Tomorrow</h2>
+
+<button class="amazon1">
+    Add to Cart
+</button>
+
+<button class="amazon2">
+    Buy Now
+</button>
+
+</html>
