@@ -1,0 +1,80 @@
+p{
+    font-family: Montserrat;
+}
+
+.model3-text{
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.order-text{
+    text-align: center;
+}
+
+.delivery-span{
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+}
+    
+    .subscribe {
+        background-color: rgb(202, 27, 27);
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 5px;
+        vertical-align: middle; /*To align the element*/
+        transition: opacity 0.1s; /* Smooth transition for hover and active effects OPTIONAL*/
+    }
+
+    .subscribe:hover {
+        opacity: 0.8;
+    } /* For when the cursor hovers to the button */
+
+    .subscribe:active {
+        opacity: 0.5;
+    } /* For when the cursor clicks to the button */
+
+    .join {
+        background-color: white;
+        color: rgb(27, 115, 202);
+        border-style: solid;
+        border-color: rgb(27, 115, 202);
+        border-width: 2px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 5px;
+        cursor: pointer;
+        vertical-align: middle; /*To align the element*/
+        transition: background-color 0.1s, color 0.1s; /* Smooth transition for hover and active effects OPTIONAL*/
+    }
+
+    .join:hover {
+        background-color: rgb(27, 115, 202);
+        color: white;
+    }
+
+    .join:active {
+        opacity: 0.8;
+    }
+
+    .tweet {
+        background-color:rgb(56, 144, 231);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 35px;
+        cursor: pointer;
+        margin: 5px;
+        font-weight: bold;
+        font-size: medium;
+        vertical-align: middle; /*To align the element*/
+        transition: box-shadow 0.2s; /* Smooth transition for hover effect OPTIONAL*/
+    }
+    
+    .tweet:hover {
+        box-shadow: 5px 5px 8px rgba(146, 171, 196, 0.6);
+    } 
+
